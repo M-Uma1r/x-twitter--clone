@@ -1,0 +1,188 @@
+.mid{
+    height: 100vh;
+    width: 400px;
+    display: inline;
+    position: relative;
+    left: 400px;
+    bottom: 700px;
+    border: 1px solid rgba(128, 128, 128, 0.532);
+    z-index: 1;
+}
+.dropdown{
+    width: 300px;
+    margin-left: 50%;
+    z-index: 2;
+    border-radius: 5px;
+    position: relative;
+    bottom: 125px;
+    background-color: rgb(21, 21, 21);
+    display: none;
+}
+.foryou{
+    width: 604px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.532);
+}
+.foryou-btn-1,.foryou-btn-2{
+    height: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.532);
+    width: 50%;
+    background-color: black;
+    color: grey;
+    font-weight: bold;
+}
+.foryou-btn-1:hover,.foryou-btn-2:hover{
+    background-color: rgb(48, 47, 47);
+}
+.foryou-btn-1{
+    height: 50px;
+    color: white;
+    position: relative;
+    bottom: 2.5px;
+}
+.under{
+    position: relative;
+    top: 8px;
+    margin: auto;
+    width: 60px;
+    border-radius: 10px;
+    height: 5px;
+    border: 2px solid rgb(52, 182, 253);
+    background-color: rgb(52, 182, 253);
+}
+
+.mainbox{
+    height: 100%;
+    width: 605px;
+    
+}
+.displaypost{
+    border: 1px solid rgba(128, 128, 128, 0.532);
+    border-left: none;
+    width: 605px;
+    height: auto;
+    word-wrap: break-word;
+    color: white;
+}
+.displaypost:disabled{
+    display: none;
+}
+.post-icons{
+    position: inherit;
+    width: 605px;
+    top: 390px;
+    left: 20px;
+    color: grey;
+}
+.fa-comment{
+    padding: 6px;
+    height: 30px;
+    padding-top: 8px ;
+    margin-right: 80px;
+    margin-left: 30px;
+}
+.fa-comment:hover{
+    color: rgb(0, 157, 255);
+    background-color: rgba(0, 229, 255, 0.171);
+    border-radius: 50px;
+}
+.comment{
+    margin-left: 10px;
+}
+.comment:hover{
+    color: rgb(0, 157, 255);
+}
+.fa-arrows-rotate{
+    padding: 6px;
+    height: 30px;
+    padding-top: 8px ;
+    margin-right: 80px;
+}
+.fa-arrows-rotate:hover{
+    color: rgb(0, 255, 98);
+    background-color: rgb(0, 255, 98,0.12);;
+    border-radius: 50px;   
+}
+.fa-heart{
+    padding: 6px;
+    height: 30px;
+    padding-top: 8px ;
+    margin-right: 80px;
+}
+.fa-heart:hover{
+    color: rgb(255, 0, 195);
+    background-color: rgb(255, 0, 195,0.171);
+    border-radius: 50px;   
+}
+.like:hover{
+    color: rgb(255, 0, 195);
+}
+.fa-chart-simple{
+    padding: 6px;
+    height: 30px;
+    padding-top: 8px ;
+    margin-right: 80px;
+}
+.fa-chart-simple:hover{
+    color: rgb(0, 157, 255);
+    background-color: rgba(0, 229, 255, 0.171);
+    border-radius: 50px;   
+}
+.fa-bookmark-icon{
+    padding: 6px;
+    height: 30px;
+    padding-top: 8px ;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.fa-bookmark-icon:hover{
+    color: rgb(0, 157, 255);
+    background-color: rgba(0, 229, 255, 0.171);
+    border-radius: 50px; 
+}
+.profile-picture-post{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display:   inline;
+
+}
+.profile-picture-post img{
+    border-radius: 50px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+.post-username{
+    display: inline;
+    margin-right: 10px;
+}
+.p-user{
+    color: grey;
+}
+.disply-p{
+    margin-left: 70px;
+}
+.fa-upload:hover{
+    color: rgb(0, 157, 255);
+    padding-top: 6px;
+    padding-bottom: 4px;
+    background-color: rgba(0, 229, 255, 0.171);
+    border-radius: 50px; 
+}
+.post-ellipsis{
+    color: grey;
+    position: relative;
+    bottom: 45px;
+    left: 550px;
+    display: flex;
+    justify-content: center ;
+    width: 50px;
+}
+.post-ellipsis:hover{
+    color: rgb(0, 157, 255);
+    background-color: rgba(0, 229, 255, 0.171);
+    border-radius: 50px;
+}
+

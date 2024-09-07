@@ -1,0 +1,95 @@
+.xtwitter-post-container {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: black;
+}
+
+.profile-picture {
+  margin-right: 10px;
+}
+
+.profile-picture img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.tweet-box {
+  flex: 1;
+}
+
+.tweet-input {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  padding: 10px 0;
+  outline: none;
+  background: none;
+  color: white;
+}
+.tweet-input-btn{
+  color: #0d6efd;
+  height: 30px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: black;
+
+}
+.tweet-input-btn:hover{
+  background-color: #0d6dfd21;
+}
+.twbtn{
+  border-bottom: 1px solid grey;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons i {
+  color: #1da1f2;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.tweet-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.char-counter {
+  color: #657786;
+  font-size: 14px;
+}
+
+.char-counter.warn {
+  color: #e0245e;
+}
+
+.tweet-button {
+  background-color: #1da1f2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+}
+
+.tweet-button:disabled {
+  background-color: #0658d3d7;
+  cursor: not-allowed;
+}

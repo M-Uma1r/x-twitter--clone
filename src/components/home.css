@@ -1,0 +1,8 @@
+.mid{
+    height: 100vh;
+    width: 400px;
+    display: inline;
+    position: relative;
+    left: 400px;
+    top: -24px;
+}
